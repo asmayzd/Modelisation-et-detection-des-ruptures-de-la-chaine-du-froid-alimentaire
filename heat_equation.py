@@ -51,3 +51,14 @@ plt.title("Heat equation simulation inside the product")
 plt.legend()
 plt.grid()
 plt.show()
+
+
+# 6. Quantitative comparison
+
+# Temperature simulated at the center
+T_sim_center = T_history[:, nx // 2]
+
+# Mean Absolute Error (MAE)
+mae = np.mean(np.abs(T_sim_center - object_temp))
+
+print(f"Mean Absolute Error (MAE): {mae:.2f} °C")
