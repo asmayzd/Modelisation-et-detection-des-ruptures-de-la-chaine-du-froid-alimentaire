@@ -26,7 +26,7 @@ missing_values = df.isnull().sum()
 print(missing_values)
 
 # Saving the preprocessed dataset
-df.to_csv("dataset_preprocessed.csv", index=False)
+df.to_csv("dataset_preprocessed.csv", index=False, sep=";")
 
 # Final preview
 print(df.head())
