@@ -9,6 +9,7 @@ git clone https://github.com/asmayzd/Modelisation-et-detection-des-ruptures-de-l
 
 creer l'environnement pour travailler trkl : 
 python -m venv env
+env\Scripts\activate
 
 installer les requirements : 
 pip install -r requirements.txt
