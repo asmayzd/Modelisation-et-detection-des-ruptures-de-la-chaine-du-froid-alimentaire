@@ -49,7 +49,7 @@ conf_test = confusion_matrix(y_test, y_pred)
 acc_test = accuracy_score(y_test, y_pred)
 err_test = 1 - acc_test
 
-print("Confusion matrix (test set):")
+print("RandomForrest-Confusion matrix (test set):")
 print(conf_test)
 
 print(f"\nTest accuracy: {acc_test:.3f}")
